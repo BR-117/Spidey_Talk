@@ -1,0 +1,64 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('/spidey.jpg');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .container {
+    background-color: rgba(17, 17, 17, 0.685);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1920px;
+    height: 1080px;
+    color: white;
+    box-shadow: black 0 2px 10px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    padding-top: 400px;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+  }
+  
+  #quote-display {
+    font-size: 26px;
+    font-style: italic;
+    padding-bottom: 60px;
+  }
+  
+  button {
+    background-color: #fdfdfda9;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0760c0a1;
+    color: white;
+  }
+  
